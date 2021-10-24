@@ -9,7 +9,14 @@
 	<xsl:template match="/">
 		<html xmlns="http://www.w3.org/1999/xhtml">
 			<head>
-				<title>XML de sitemap - Soluven &#8211; Solução para Vendas &#8211; CRM Inteligente &#8211; Gestão de Clientes</title>
+				<xsl:choose>
+					<xsl:when test="kml:kml">
+						<title>Sitemap de locais - Soluven &#8211; Solução para Vendas &#8211; CRM Inteligente &#8211; Gestão de Clientes</title>
+					</xsl:when>
+					<xsl:otherwise>
+						<title>XML de sitemap - Soluven &#8211; Solução para Vendas &#8211; CRM Inteligente &#8211; Gestão de Clientes</title>
+					</xsl:otherwise>
+				</xsl:choose>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<style type="text/css">
 					body {
