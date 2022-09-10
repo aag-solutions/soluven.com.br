@@ -66,7 +66,6 @@
 						max-width: 75%;
 						margin: 0 auto;
 					}
-
 					table {
 						border: none;
 						border-collapse: collapse;
@@ -77,7 +76,7 @@
 						background-color: #4275f4;
 						color: #fff;
 						text-align: left;
-						padding: 15px;
+						padding: 15px 10px;
 						font-size: 14px;
 						cursor: pointer;
 					}
@@ -220,8 +219,8 @@
 
 									<thead>
 										<tr>
-											<th width="80%">URL</th>
-											<th width="5%">Imagens</th>											<th title="Last Modification Time" width="15%">Última mod.</th>
+											<th width="75%">URL</th>
+											<th width="5%">Imagens</th>											<th title="Last Modification Time" width="20%">Última mod.</th>
 										</tr>
 									</thead>
 
